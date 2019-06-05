@@ -2,12 +2,103 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title> {% block title %} Title {% endblock %}</title>
+    <title> {% block title %} {% endblock %}</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+    a {
+        color:white!important;
+    }
+    a:hover{
+        color:white!important;
+    }
+</style>
     {% block styles %} {% endblock %}
 </head>
 <body>
     {% block content %} {% endblock %}
+    <!-- Footer -->
+<footer class="page-footer font-small blue" style="margin-top:50px; color:white;">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left" style="background-color: #007bff; padding-top: 50px; padding-bottom: 30px;">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3 text-center">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">THENews</h5>
+        <p>Мы делаем новости!</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Главная</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Новости</a>
+          </li>
+          <li>
+            <a href="#!">События</a>
+          </li>
+          <li>
+            <a href="#!">Мероприятия</a>
+          </li>
+          <li>
+            <a href="#!">Отправить новость</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">О нас</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Проект "THENews"</a>
+          </li>
+          <li>
+            <a href="#!">FAQ</a>
+          </li>
+          <li>
+            <a href="#!">Задать вопрос</a>
+          </li>
+          <li>
+            <a href="#!">Контакты</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="background-color: #1a78c2;">© 2019 NEWS:
+    <a href="/"> THENews.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
